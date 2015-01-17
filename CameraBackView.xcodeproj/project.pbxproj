@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BE7227AA1A685A8100B2A6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7227A91A685A8100B2A6EE /* AppDelegate.swift */; };
-		BE7227AC1A685A8100B2A6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7227AB1A685A8100B2A6EE /* ViewController.swift */; };
+		BE7227AC1A685A8100B2A6EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7227AB1A685A8100B2A6EE /* MainViewController.swift */; };
 		BE7227AF1A685A8100B2A6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7227AD1A685A8100B2A6EE /* Main.storyboard */; };
 		BE7227B11A685A8100B2A6EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7227B01A685A8100B2A6EE /* Images.xcassets */; };
 		BE7227B41A685A8100B2A6EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7227B21A685A8100B2A6EE /* LaunchScreen.xib */; };
 		BE7227C01A685A8100B2A6EE /* CameraBackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7227BF1A685A8100B2A6EE /* CameraBackViewTests.swift */; };
+		BE7227CA1A685AC200B2A6EE /* MCCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7227C91A685AC200B2A6EE /* MCCameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		BE7227A41A685A8100B2A6EE /* CameraBackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraBackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7227A81A685A8100B2A6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7227A91A685A8100B2A6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE7227AB1A685A8100B2A6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE7227AB1A685A8100B2A6EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BE7227AE1A685A8100B2A6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE7227B01A685A8100B2A6EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE7227B31A685A8100B2A6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE7227B91A685A8100B2A6EE /* CameraBackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraBackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7227BE1A685A8100B2A6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7227BF1A685A8100B2A6EE /* CameraBackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBackViewTests.swift; sourceTree = "<group>"; };
+		BE7227C91A685AC200B2A6EE /* MCCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				BE7227A91A685A8100B2A6EE /* AppDelegate.swift */,
-				BE7227AB1A685A8100B2A6EE /* ViewController.swift */,
+				BE7227AB1A685A8100B2A6EE /* MainViewController.swift */,
+				BE7227C91A685AC200B2A6EE /* MCCameraView.swift */,
 				BE7227AD1A685A8100B2A6EE /* Main.storyboard */,
 				BE7227B01A685A8100B2A6EE /* Images.xcassets */,
 				BE7227B21A685A8100B2A6EE /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7227AC1A685A8100B2A6EE /* ViewController.swift in Sources */,
+				BE7227AC1A685A8100B2A6EE /* MainViewController.swift in Sources */,
 				BE7227AA1A685A8100B2A6EE /* AppDelegate.swift in Sources */,
+				BE7227CA1A685AC200B2A6EE /* MCCameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				BE7227C51A685A8100B2A6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE7227C61A685A8100B2A6EE /* Build configuration list for PBXNativeTarget "CameraBackViewTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				BE7227C81A685A8100B2A6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
