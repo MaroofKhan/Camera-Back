@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CameraBackView
+//  Camera Back
 //
-//  Created by Maroof Khan on 1/16/15.
-//  Copyright (c) 2015 Maroof Khan. All rights reserved.
+//  Created by Maroof Khan on 1/9/16.
+//  Copyright © 2016 Maroof Khan. All rights reserved.
 //
 
 import UIKit
